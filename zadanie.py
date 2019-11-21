@@ -1,16 +1,15 @@
 def sumuj_naturalne(start,stop):
     suma = 0 
-    liczba1 = int(input("Podaj liczbę: "))
-    liczba2 = int(input("Podaj liczbę: "))
-    for i in range(5, 11 ):
-        suma = suma + 1 
-        
-        print
+    for i in range(start, stop):
+        suma = suma + i
+    print(i, '', end = '')
 
 
 
 
 def main(args):
+    start = int(input("podaj liczbę początkową: "))
+    stop = int(input("podaj liczbe końcową: "))
     return 0
 
 if __name__ == '__main__':
