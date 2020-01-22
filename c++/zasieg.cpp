@@ -24,13 +24,13 @@ void drukuj2 (int &liczba) {
 
 int main(int argc, char **argv)
 {
-    int suma = 5; //"redeklaracja" zmienna globalna
+    int suma = 5; //"redeklaracja" zmienna lokalna
     int liczba = 3;
 	suma += 10;
     cout << suma << endl;
     cout << liczba << endl;
     cout << &liczba << endl;
-    drukuj(liczba);
+    drukuj(liczba); //by value
     drukuj2(liczba); //by reference
     cout << liczba << endl;
 	return 0;
