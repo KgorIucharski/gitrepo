@@ -13,7 +13,7 @@ void pobierzliczby(int t[], int n) {
 }
 void drukuj(int t[], int n) {
     for (int i =0; i < n; i++) {
-        cout << "nie";
+        cout << t[i] << endl;
     }
     cout << endl;
 }
